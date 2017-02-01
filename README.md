@@ -3,6 +3,7 @@ Available for Android only.
 
 
 How to use:
+Go to your activity.
 
 
     private EditText etSample;
