@@ -1,15 +1,16 @@
-A Simple masked for brazilian fields like Cep, Cnpj, Cpf and PhoneNumber (tel and cel). Available for Android only.
+A Simple masked for brazilian fields like Cep, Cnpj, Cpf and PhoneNumber (tel and cel). 
+Available for Android only.
 
 
 How to use:
 
 
-private EditText etSample;
-private EditText etSample2;
-private EditText etSample3;
-private EditText etSample4;
+    private EditText etSample;
+    private EditText etSample2;
+    private EditText etSample3;
+    private EditText etSample4;
 
-@Override
+    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -28,4 +29,4 @@ private EditText etSample4;
         
         new JMaskedCpf(etSample4,mHint).mask(); // cpf
         
-}
+    }
