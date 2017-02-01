@@ -1,4 +1,4 @@
-package sse.sebraeemsuaempresa.mascara;
+package mascara;
 
 import android.widget.EditText;
 

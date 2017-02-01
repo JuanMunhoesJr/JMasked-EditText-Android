@@ -1,4 +1,4 @@
-package sse.sebraeemsuaempresa.mascara;
+package mascara;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -70,8 +70,8 @@ public class JMaskedCpf extends JChieldMasked{
                         // Verificar se a ultima insercao eh valida
                         // 333.444.555-12
 
-                        if(numeros.length() > 11){
-                            String novo = numeros.substring(0,10);
+                        if(numeros.length() > 12){
+                            String novo = numeros.substring(0,11);
                             editText.setText(novo);
                             editText.setSelection(getFirstFreePosition(editText,hint));
                             editText.addTextChangedListener(this);

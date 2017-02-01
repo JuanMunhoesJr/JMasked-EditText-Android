@@ -1,4 +1,4 @@
-package sse.sebraeemsuaempresa.mascara;
+package mascara;
 
 import android.text.Editable;
 import android.text.TextWatcher;
